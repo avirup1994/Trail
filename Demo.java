@@ -11,7 +11,7 @@ class A{
             }
             else if(arr[mid]>n)
             {
-                return call(arr, 0, , n);
+                return call(arr, 0, mid-1, n);
             }
             else{
                 return call(arr, mid+1, end, n);
